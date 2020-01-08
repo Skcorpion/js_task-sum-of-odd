@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /**
  * Implement sumOfOdd function:
@@ -26,6 +26,7 @@
  */
 function rowSumOddNumbers(row) {
   // write code here
+  return row > 0 ? row ** 3 : 0;
 }
 
 module.exports = rowSumOddNumbers;
